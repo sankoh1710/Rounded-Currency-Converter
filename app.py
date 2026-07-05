@@ -157,7 +157,7 @@ def get_rate(base: str, quote: str) -> tuple[Decimal, str]:
     rate_date = data.get("date") or date.today().isoformat()
     return decimalize(rate), str(rate_date)
 
-
+#Streamlit Codes
 st.set_page_config(
     page_title="Rounded Currency Converter",
     page_icon="💱",
